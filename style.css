@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+}
+body{
+      font-family: "Lato", sans-serif;
+      background-color: #EAE9E9;
+}
+.contaier{
+      background-color: #D4D7DD;
+      width: 90vmin;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      padding: 80px 50px;
+      border-radius: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.search-box{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+}
+.search-box input{
+      width: 70%;
+      padding: 5px;
+      border: none;
+      outline: none;
+      background-color: #D4D7DD;
+      font-size: 16px;
+      border-bottom: 3px solid #420000;
+
+}
+.search-box input::placeholder{
+      color: #420000;
+}
+.search-box button{
+      padding: 15px;
+      width: 25%;
+      background-color: #420000;
+      border: none;
+      outline: none;
+      color: white;
+      border-radius: 5px;
+
+}
+.result{
+      position: relative;
+
+}
+.result h3{
+      font-size: 30px;
+      color: #420000;
+
+
+}
+.result .word{
+      margin-top: 70px;
+
+}
+.result .details{
+      display: flex;
+      gap: 10px;
+      margin: 5px 0 20px 0;
+      font-size: 14px;
+}
+.word-meaning{
+      color: #575a7b;
+}
+.word-exmple{
+      color: #575a7b;
+      font-style: italic;
+      border-left: 5px solid #420000;
+      margin-top: 30px;
+      padding-left: 30px;
+}
